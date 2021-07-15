@@ -1,0 +1,405 @@
+/*
+Theme Name: Oshin Child
+Description: Oshin Child Theme
+Author: Brand Exponents
+Template: oshin
+Version: 1.0
+*/
+
+@import url("../oshin/style.css");
+@font-face {
+  font-family: 'MaisonNeue';
+  src: url('fonts/MaisonNeue-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'snowflake';
+  src: url('fonts/snowflake.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/*
+ABOUT PAGE
+
+HAD TO ADD THIS TO PREVENT FIXED ABOUT PHOTO. IN WP ADMIN, SETTING BACKGROUND
+ATTACHMENT TO SCROLL HAS NO EFFECT. BUT NOW, SCROLL KEEPS GETTING STUCK AS YOU GO DOWN PAGE*/
+.page-template-page-splitscreen-left .header-hero-section {
+  position: absolute !important;
+}
+
+#hero-section.header-hero-section {
+  top: 0px !important;
+}
+
+#content.page-split-screen-left.no-sidebar-page {
+  margin-top: -60px;
+}
+
+/*END ABOUT PAGE*/
+
+.logo a, .logo a img {
+  width: 30px;
+  height: auto;
+}
+
+.style5 .logo, .style6 .logo {
+  margin-top: 60px !important;
+  margin-bottom: 60px !important;
+}
+
+@media only screen and (max-width: 960px) {
+.style6 .logo {
+  float: none;
+  margin-right: 30px;
+}
+}
+
+.mobile-nav-controller-wrap .menu-controls {
+  margin-right: 10px;
+  margin-top: 19px;
+}
+
+.left-mobile-menu {
+  display: none !important;
+}
+
+#navigation {
+  padding: 20px 0;
+}
+
+#left-menu {
+  visibility: hidden;
+}
+
+#right-menu {
+  float: right;
+}
+
+#navigation-right-side {
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+#header-inner-wrap {
+}
+
+.header-code-widgets {
+  margin: 0px;
+}
+
+#mobile-menu, #mobile-menu ul {
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+body.header-transparent #header-wrap #navigation, body.header-transparent #header-wrap #navigation-left-side, body.header-transparent #header-wrap #navigation-right-side, body.header-transparent #header-inner-wrap .header-controls, body.header-transparent #header-inner-wrap #header-controls-left, body.header-transparent #header-inner-wrap #header-controls-right, body.header-transparent #header-inner-wrap #header-wrap, body.header-transparent #header-inner-wrap .mobile-nav-controller-wrap {
+  line-height: 175px;
+}
+
+.style8 #header-controls-right {
+  right: 21px;
+}
+
+#mobile-menu li {
+  padding: 0px;
+}
+#mobile-menu a {
+  padding: 0px;
+}
+}
+
+
+@media only screen and (max-width: 1220px) and (min-width: 1025px) {
+.tatsu-wrap {
+  max-width: calc(100% - 0px);
+
+}
+}
+
+#footer {
+  font-family: "Whitney SSm A", "Whitney SSm B" !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+  text-transform: none !important;
+  font-size: 16px !important;
+  line-height: 26px !important;
+  letter-spacing: 0px !important;
+  color: #0D597D !important;
+}
+
+#footer-wrap a {
+  margin-right: 0px;
+}
+
+#footer-wrap a:hover {
+  color: #86acbe;
+  transition: all .3s linear;
+}
+
+h1, .h1 {
+  font-family: "Mercury SSm A", "Mercury SSm B" !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+}
+
+@media screen and (min-width: 768px) {
+  h1, .intro {
+    width: 500px;
+    margin: 0 auto !important;
+  }
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 500px) {
+  h1, .intro {
+    width: 400px;
+    margin: 0 auto !important;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  h1, .intro {
+    font-size: 22px !important;
+    line-height: 38px !important;
+    font-weight: 400 !important;
+    width: 250px;
+    margin: 0 auto !important;
+  }
+}
+
+
+h2 {
+  font-family: "Mercury SSm A", "Mercury SSm B" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+}
+
+h3, .h3 {
+  font-family: "Whitney SSm A", "Whitney SSm B" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+}
+
+h5 {
+  font-family: "Mercury SSm A", "Mercury SSm B" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  letter-spacing: 0px !important;
+  text-decoration: underline;
+}
+
+h6, #connect {
+  font-family: "Whitney SSm A", "Whitney SSm B" !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+  color: #0d597d;
+}
+
+#connect {
+
+}
+
+#here {
+  text-decoration: underline;
+}
+
+.title {
+  font-family: "Mercury SSm A", "Mercury SSm B" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  letter-spacing: 0px !important;
+}
+
+#view-more-projects {
+  font-weight: 500 !important;
+}
+
+#dribbble {
+  color: #ffffff;
+}
+
+#view-more-projects a:hover {
+  font-weight: 500 !important;
+  color: #c2d5de;
+  transition: all .3s linear;
+}
+
+#nutshell {
+  font-family: "Whitney SSm A", "Whitney SSm B" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 30px !important;
+}
+
+#bucks {
+  text-decoration: underline;
+}
+
+p, ul, li {
+  font-family: "Whitney SSm A", "Whitney SSm B" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+#h-list {
+  font-family: "Mercury SSm A", "Mercury SSm B" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+}
+
+ul {
+  list-style: none;
+  padding-left: 1em !important;
+}
+
+ul a:link {
+  font-weight: 500 !important;
+  font-family: "Whitney SSm A", "Whitney SSm B" !important;
+  font-style: normal !important;
+  font-size: 16px !important;
+  letter-spacing: 0px !important;
+}
+
+ul li, ol li {
+  margin-bottom: 0px;
+}
+
+a:link, a:visited {
+  color: #0d597d;
+}
+
+ul a:hover {
+  color: #86acbe !important;
+  transition: all .3s linear;
+
+}
+
+
+.next-title, .previous-title {
+  font-family: "Whitney SSm A", "Whitney SSm B" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  color: #0d597d;
+}
+
+body.header-transparent #header-wrap #navigation, body.header-transparent #header-wrap #navigation-left-side, body.header-transparent #header-wrap #navigation-right-side, body.header-transparent #header-inner-wrap .header-controls, body.header-transparent #header-inner-wrap #header-controls-left, body.header-transparent #header-inner-wrap #header-controls-right, body.header-transparent #header-inner-wrap #header-wrap, body.header-transparent #header-inner-wrap .mobile-nav-controller-wrap {
+  line-height: 175px !important;
+}
+
+
+.tatsu-button{
+  font-family: "Whitney SSm A", "Whitney SSm B" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  margin-bottom: 0px !important;
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+  font-size: 16px !important;
+}
+
+.tatsu-0tSoOxnN1.tatsu-text-block-wrap .tatsu-text-inner {
+  font-family: "Whitney SSm A", "Whitney SSm B" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+}
+
+.thumb-title-wrap .thumb-title, .full-screen-portfolio-overlay-title {
+  font-family: "Whitney SSm A", "Whitney SSm B" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  letter-spacing: 0px !important;
+}
+
+.portfolio-item-cats {
+  font-family: "Whitney SSm A", "Whitney SSm B" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+}
+
+.special-header-menu .menu-container, #navigation .mega .sub-menu .highlight .sf-with-ul, #navigation, .style2 #navigation, .style13 #navigation, #navigation-left-side, #navigation-right-side, .sb-left #slidebar-menu, .header-widgets, .header-code-widgets, body #header-inner-wrap.top-animate.style2 #navigation, .top-overlay-menu .sb-right #slidebar-menu {
+  font-family: "Whitney SSm A", "Whitney SSm B" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+}
+
+ul#mobile-menu a, ul#mobile-menu li.mega ul.sub-menu li.highlight>:first-child {
+  font-family: "Whitney SSm A", "Whitney SSm B" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+}
+
+#mobile-menu li {
+  padding-bottom: 6px;
+  padding-top: 6px;
+}
+
+.contact_form_module input[type="text"], .contact_form_module textarea {
+  font-family: "Whitney SSm A", "Whitney SSm B" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  letter-spacing: 0px !important;
+}
+
+input[type="submit"].mediumbtn {
+  font-family: "Whitney SSm A", "Whitney SSm B" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  text-transform: capitalize !important;
+  letter-spacing: 0px;
+}
+
+.tatsu-error, .wpcf7-response-output.wpcf7-validation-errors, .tatsu-success, .wpcf7-response-output.wpcf7-mail-sent-ok {
+  background: transparent;
+  color: #ffffff;
+  font-family: "Whitney SSm A", "Whitney SSm B" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  letter-spacing: 0px !important;
+}
+
+.tatsu-normal-icon.align-none .tatsu-icon {
+  margin-right: 0px;
+}
+
+#navigation .current_page_item a, #navigation-left-side .current_page_item a, #navigation-left-side .current_page_item a:hover, #navigation-left-side a:hover, #navigation-right-side .current_page_item a, #navigation-right-side a:hover, #menu li.current-menu-ancestor > a, #navigation-left-side .current-menu-item > a, #navigation-right-side .current-menu-item > a, #navigation .current-menu-item > a, #navigation .sub-menu .current-menu-item > a, #navigation .sub-menu a:hover, #navigation .children .current-menu-item > a, #navigation .children a:hover, #slidebar-menu .current-menu-item > a, .special-header-menu a:hover + .mobile-sub-menu-controller i, .special-header-menu #slidebar-menu a:hover, .special-header-menu .sub-menu a:hover, .single-page-version #navigation a:hover, .single-page-version #navigation-left-side a:hover, .single-page-version #navigation-right-side a:hover, .single-page-version #navigation .current-section.current_page_item a, .single-page-version #navigation-left-side .current-section.current_page_item a, .single-page-version #navigation-right-side .current-section.current_page_item a, .single-page-version #slidebar-menu .current-section.current_page_item a, .single-page-version #navigation .current_page_item a:hover, .single-page-version #navigation-left-side .current_page_item a:hover, .single-page-version #navigation-right-side .current_page_item a:hover, .single-page-version #slidebar-menu .current_page_item a:hover, .be-sticky-sections #navigation a:hover, .be-sticky-sections #navigation-left-side a:hover, .be-sticky-sections #navigation-right-side a:hover, .be-sticky-sections #navigation .current-section.current_page_item a, .be-sticky-sections #navigation-left-side .current-section.current_page_item a, .be-sticky-sections #navigation-right-side .current-section.current_page_item a, .be-sticky-sections #navigation .current_page_item a:hover, .be-sticky-sections #navigation-left-side .current_page_item a:hover, .be-sticky-sections #navigation-right-side .current_page_item a:hover, #navigation .current-menu-ancestor > a, #navigation-left-side .current-menu-ancestor > a, #navigation-right-side .current-menu-ancestor > a, #slidebar-menu .current-menu-ancestor > a, .special-header-menu .current-menu-item > a, .sb-left #slidebar-menu a:hover {
+  color: #000000 !important;
+  transition: all .3s linear;
+}
+
+#header-top-menu a:hover, #navigation .current_page_item a:hover, #navigation-right-side .current_page_item a:hover, #navigation a:hover, #navigation-right-side a:hover {
+  color: #f2a987 !important;
+  transition: all .3s linear;
+}
+
+.initial {
+  font-size: 54px;
+  font-family: "Inkwell Script A", "Inkwell Script B";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px;
+  margin-left: -3px;
+  margin-right: 0px;
+  color: #f2a987;
+}
+
+#border {
+  font-size: 54px;
+  font-family: 'snowflake';
+  font-style: normal;
+  font-weight: normal;
+}
+
+.fab fa-instagram {
+  font-size: 50px !important;
+}

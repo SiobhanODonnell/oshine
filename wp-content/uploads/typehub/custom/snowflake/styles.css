@@ -1,0 +1,10 @@
+@font-face {
+                        font-family: 'snowflake';
+                        src: url('snowflake.eot');
+                        src: url('snowflake.eot?#iefix') format('embedded-opentype'),
+                            url('snowflake.woff2') format('woff2'),
+                            url('snowflake.woff') format('woff'),
+                            url('snowflake.svg#snowflake') format('svg');
+                        font-weight: normal;
+                        font-style: normal;
+                    }
